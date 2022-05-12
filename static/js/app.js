@@ -4,10 +4,10 @@ const tableData = data;
 let tbody = d3.select("tbody");
 function buildTable(data) {
 }
-function buildTable(data) {
+//function buildTable(data) {
   // first, clear out any existing data
-  tbody.html("");
-}
+  //tbody.html("");
+//}
   // create a forEach function that LOOP THROUGH OUR DATA ARRAY, and then adds rows of data to the table
   data.forEach((dataRow) => {
     // create a variable that will APPEND A ROW TO THE TABLE (tells JS to find the <tbody> tag within the HTML code)
