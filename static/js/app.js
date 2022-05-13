@@ -5,7 +5,7 @@ let tbody = d3.select("tbody");
 function buildTable(data) {
 }
 //function buildTable(data) {
-  // first, clear out any existing data
+   //first, clear out any existing data
   //tbody.html("");
 //}
   // create a forEach function that LOOP THROUGH OUR DATA ARRAY, and then adds rows of data to the table
