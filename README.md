@@ -29,7 +29,6 @@ The major drawback to the site is that the search fields are case sensitive.  Wh
 The first recommendation is to address the case sensitivity of the current code.  To make the search fields case insensitive, the code could be updated using either the toLowerCase() or toUpperCase() to ensure both strings are either all lowercase or all uppercase.  Another method would be to use the localCompare().
 
 One additional recommendation for improving the current site is to create a drop-down menu for entries made in the date field.  Because the UFO sightings table only has data for the dates of July 1 through July 13, it may be helpful to the user if only dates in a drop-down menu are available for selection. As a sample, using <div class = “dropdown” > in HTML and .dropbtn{} in CSS would remove the ability of the user to input any date they want with an expectation of receiving a result.
- 
 
 
 
